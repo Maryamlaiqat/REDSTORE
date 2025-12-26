@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width>, initial-scale=1.0">
+    <title>product</title>
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="navbar">
+        <div class="logo">
+            <img src="images/logo.png" width="125px">
+        </div>
+        <nav>
+        <ul id="menuitems">
+            <li><a href="">Home</a></li>
+            <li><a href="">product </a></li>
+            <li><a href="">about</a></li>
+           <li><a href="">contact </a></li>
+            <li><a href="">card</a></li>
+
+        </ul>
+        </nav>
+        <img src="images/cart.png" width="30px" height="30px">
+        <img src="images/menu.png" class="menu-icon "onclick="menutoggle()" >
+    </div>
+     </div>
+    <!----------single product details ----->
+    <div class="small-container single-product" >
+        <div class="row">
+            <div class="col-2"> 
+               <img src="images/gallery-1.jpg" width="100%" id="productimg">
+              <div class="small-img-row">
+                <div class="small-img-col">
+                    <img src="images/gallery-1.jpg" width="100%" class="smallimg">
+          </div>
+               <div class="small-img-col">
+                    <img src="images/gallery-2.jpg" width="100%" class="smallimg">
+          </div>
+               <div class="small-img-col">
+            <img src="images/gallery-3.jpg" width="100%" class="smallimg">
+          </div>
+          <div class="small-img-col">
+            <img src="images/gallery-4.jpg" width="100%" class="smallimg">
+          </div>
+              </div>
+            </div>
+ <div class="col-2">
+<p>Home/T-shirt</p>
+<h1>Red printed T-shirt by HRX</h1>
+<h4>$550.00</h4>
+<select>
+    <option>select size </option>
+        <option>XXL </option>
+    <option>XL </option>
+    <option>Medium</option> 
+        <option>small</option>
+</select>
+<input type="number" value="1">
+<a href="" class="btn">Add to card</a>
+<h3>product Details<i class="fa fa-indent"></i></h3>
+<p>Oxford Shoes. ...
+Brogue Shoes. ...
+Boots. ...
+Loafers. ...
+Derby Shoes. ...
+Double Monk-Strap Shoes. ...
+Casual Shoes</p>
+    </div>
+        </div>
+    </div>  
+    
+    <!-----title------>
+    <div class="small-container">
+        <div class=" row row-2">
+            <h2>Related product</h2>
+            <p>view more</p>
+
+        </div>
+    </div>
+    <!-----product------>
+     <div class="small-container">
+        <div class="row  row-2">
+            
+        </div>
+        <div class="row">
+             <div class="col-4">
+                <img src="images/product-9.jpg" >
+                <h4>Red printed T-shirt</h4>
+                <div class="rating">
+            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star-half-o"></i>
+                </div>
+                <p>$50.00</p>
+                </div>
+     <div class="col-4">
+                <img src="images/product-10.jpg" >
+                <h4>Red printed T-shirt</h4>
+                <div class="rating">
+            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star-o"></i>
+                </div>
+                <p>$50.00</p>
+                </div>
+                  <div class="col-4">
+                <img src="images/product-11.jpg" >
+                <h4>Red printed T-shirt</h4>
+                <div class="rating">
+            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star-half-o"></i>
+                </div>
+                <p>$50.00</p>
+                </div>
+
+    <div class="col-4">
+                <img src="images/product-12.jpg" >
+                <h4>Red printed T-shirt</h4>
+                <div class="rating">
+            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star-half-o"></i>
+                </div>
+                <p>$50.00</p>
+                </div>
+        </div>
+        </div>
+        
+
+       <!-----footer------>
+<div class="footer">
+    <div class="small-container">
+        <div class="row">
+            <div class="footer-col-1">
+            <h3>Download our App</h3>
+            <p>Download our app from Andriod and IOS mobile phones </p>  
+            <div class="app-logo">
+                <img src="images/app-store.png">
+                <img src="images/play-store.png" >
+            </div>  
+            </div>
+<div class="footer-col-2">
+    <img src="images/logo-white.png">
+                <p>our purpose is to sustainably make the pleasure <br> benefits of sports Accessible to the many</p>    
+
+</div>
+            
+            <div class="footer-col-3">
+<h3>Useful links</h3>
+<ul>
+    <li>blog</li>
+    <li>coupons</li>
+    <li>return policy</li>
+    <li> join Affiliate</li>
+
+</ul>  
+</div>
+<div class="footer-col-4">
+    <h3>Follow us</h3>
+<ul>
+    <li>facebook</li>
+    <li>whatsapp</li>
+    <li>tiktok</li>
+    <li> instagram</li>
+
+</ul>  
+<div>
+    <hr>
+<p class="copy-right
+">copyright 2020- Easy tutorial</p>
+        </div>
+</div>
+<!------------js for toggle menu---->
+<script>
+    var menuitems=Document.getElementByid("Menuitems");
+    menuitems.style.maxheight="0px";
+    function menutoggle() {
+        if(Menuitems.style.maxheight=="0px")
+    
+     {
+            Menuitems.style.maxheight=="0px"
+
+}
+}
+</script>
+<!----js for product gallery---->
+<script>
+    var productimg =document.getElementById("productimg");
+    var smallimg=document.getElementByIdclassName("smallimg");
+    smallimg[0].onclick=function(){
+        productimg.src=[0].src;
+        }
+        smallimg[1].onclick=function(){
+        productimg.src=[1].src;
+        }
+        smallimg[2].onclick=function(){
+        productimg.src=[2].src;
+        }
+        smallimg[3].nclick=function(){
+        productimg.src=[3].src;
+        }
+</script>
+</html>
